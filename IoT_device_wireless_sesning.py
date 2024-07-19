@@ -497,9 +497,9 @@ if normla_per in range(0,60):
     sleep(1)
     mail_content = """  HELP HELP HELP YOUR DEVICE RUN INTO CRITICAL MODE """
     #The mail addresses and password
-    sender_address ='thesisyashsharma@gmail.com'
-    sender_pass ='@W20087278'
-    receiver_address ='thesisyashsharma@gmail.com'
+    sender_address =' '
+    sender_pass =' '
+    receiver_address =' '
     #Setup the MIME
     message = MIMEMultipart()
     message['From'] = sender_address
@@ -606,9 +606,9 @@ from chart_studio.plotly import iplot
 #from plotly.offline import download_plotlyjs, plot
 from plotly.graph_objs import Scatter, Layout, Figure # plotly graph objects
 import time # timer functions
-username = 'YashWIT'
-api_key = 'guXHSbfFNar7y8RqiXkV'
-stream_token = '5y9uw2h96z'
+username = ' '
+api_key = ' '
+stream_token = ' '
 py.sign_in(username, api_key)
 
 #data=pd.read_csv("sensors_two_phase_new_condition.csv")
