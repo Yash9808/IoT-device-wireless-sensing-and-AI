@@ -344,15 +344,15 @@ for t in range(len(phase_state_condition1)):
         from twilio.rest import Client
 
         # Your Account SID from twilio.com/console
-        account_sid = 'AC6be71b264ecd8aaae99c24f514a48dd0'
+        account_sid = ''
 # Your Auth Token from twilio.com/console
-        auth_token  = '4de8e9ca015cf60518a713c5e7454e7b'
+        auth_token  = ''
 
         client = Client(account_sid, auth_token)
 
         message = client.messages.create(body="Message from device Please check email for complete report, or make a call to your friend as deviec run into emergency condition",
-        to='whatsapp:+353894864958',
-        from_='whatsapp:+14155238886')
+        to='whatsapp:+',
+        from_='whatsapp:')
 
         print(message.sid)
         '''
@@ -529,15 +529,15 @@ if normla_per in range(0,60):
     from twilio.rest import Client
 
         # Your Account SID from twilio.com/console
-    account_sid = 'AC6be71b264ecd8aaae99c24f514a48dd0'
+    account_sid = 'token serial key'
 # Your Auth Token from twilio.com/console
-    auth_token  = '4de8e9ca015cf60518a713c5e7454e7b'
+    auth_token  = 'token value'
 
     client = Client(account_sid, auth_token)
 
     message = client.messages.create(body="Message from device Please check email for complete report, or make a call to your friend as deviec run into emergency condition",
-    to='whatsapp:+353894864958',
-    from_='whatsapp:+14155238886')
+    to='whatsapp:+ here number',
+    from_='whatsapp: from twilio')
 
     print(message.sid)
 
